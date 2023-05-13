@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: darkgrey;
+}
+
+.nav-paginas {
+    background-color: brown;
+}
+
+.titulo-pagina {
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+
+.links-nav {
+    font-weight: bold;
+    color: white !important;
+    margin-right: 30px;
+}
+
+.links-nav:hover {
+    font-size: 15px;
+    border-bottom: 2px solid white;
+}
+
+.menu-responsivo {
+    background-color: white;
+}
+
+
+.pesquisar {
+    font-weight: bold;
+    color: white;
+    border: 4px solid white;
+    background-color: brown;
+    border: 2px solid white;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.pesquisar:hover{
+    background-color: rgb(90, 21, 21);
+}
+
+.input-pesquisa {
+   width: 600px;
+   border: none;
+   padding: 10px;
+}
+
+.alinhar-texto-centro {
+    text-align: center;
+}
+
+.titulo-destaques {
+    margin: 40px 0;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    color: brown;
+}
+
+.img-header-page {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.cards {
+    border: 4px solid brown;
+    border-radius: 10px;
+    background-color: darkgray;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.cards:hover {
+    background-color: rgb(122, 122, 122);
+}
+
+.cards-titulo {
+    font-weight: bold;
+    color: brown;
+}
+
+.img-cards {
+    object-fit: cover;
+    height: 200px;
+}
+
+.cards-descricao {
+    color: white;
+}
+
+.data-card {
+    font-family: 'Lobster', cursive;
+    color: white !important;
+}
