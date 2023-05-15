@@ -106,6 +106,7 @@ body {
 .data-card {
     font-family: 'Lobster', cursive;
     color: white !important;
+    margin: 20px;
 }
 
 .image-card-destaque {
