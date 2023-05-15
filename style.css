@@ -88,9 +88,8 @@ body {
     color: brown;
 }
 
-.img-cards {
-    object-fit: cover;
-    height: 200px;
+.image-card {
+    width: 400px;
 }
 
 .cards-descricao {
