@@ -31,6 +31,12 @@ body {
     background-color: white;
 }
 
+.input-pesquisa {
+    width: 100px;
+    outline: none;
+    box-shadow: none !important;
+}
+
 
 .pesquisar {
     font-weight: bold;
@@ -94,9 +100,16 @@ body {
 
 .cards-descricao {
     color: white;
+    font-weight: bold;
 }
 
 .data-card {
     font-family: 'Lobster', cursive;
     color: white !important;
+}
+
+.image-card-destaque {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
 }
