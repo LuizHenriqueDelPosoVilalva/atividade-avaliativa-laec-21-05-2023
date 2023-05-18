@@ -9,8 +9,7 @@ body {
 }
 
 .titulo-pagina {
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-left: 30px;
     font-family: 'Lobster', cursive;
     color: white;
 }
@@ -26,8 +25,22 @@ body {
     border-bottom: 2px solid white;
 }
 
+
+.link-sub-nav {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.link-sub-nav:hover {
+    color: darkred;
+    border-bottom: 2px solid darkred;
+}
+
 .menu-responsivo {
     background-color: white;
+    outline: none;
 }
 
 .input-pesquisa {
@@ -76,8 +89,7 @@ body {
 }
 
 .cards {
-    border: none;
-    border-radius: 10px;
+    border: 1px solid darkred;
     margin-bottom: 40px;
     cursor: pointer;
     transition: all 0.6s;
