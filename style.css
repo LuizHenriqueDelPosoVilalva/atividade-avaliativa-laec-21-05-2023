@@ -69,8 +69,17 @@ body {
 
 .input-pesquisa {
    width: 600px;
-   border: none;
    padding: 10px;
+}
+
+.input-pesquisa-style {
+    border: none;
+    box-shadow: none !important;
+    outline: none;
+}
+
+.largura-img-inicial {
+    width: 100%;
 }
 
 .alinhar-texto-centro {
