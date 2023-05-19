@@ -152,6 +152,21 @@ body {
     cursor: pointer;
 }
 
+.texto-da-noticia {
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.destaque {
+    color: darkred;
+}
+
+.caixa-cards {
+    margin-top: 40px;
+}
+
 footer {
     background-color: darkred;
     color: white;
